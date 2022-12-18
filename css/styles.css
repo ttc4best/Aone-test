@@ -302,6 +302,10 @@ color: #fff;
         background: #126de4;
       }
 
+      .card--primary .badge--primary {
+        background: #126de4;
+      }
+
     .card--secondary .badge--secondary{
         background: #02cdf1;
     }
@@ -336,6 +340,9 @@ color: #fff;
     }
     .plan .list__item {
         margin-bottom: 2rem;
+    }
+    .plan--popular {
+        transform: scale(1.1);
     }
     .plan--popular .card__header {
         position: relative;
@@ -697,4 +704,12 @@ margin: 2rem 0.5rem;
     .block-domain__prices {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
+}
+/* Plans Block */
+.block-plans .grid {
+    gap:8rem 4rem;
+}
+.block-plans .card {
+    max-width: 500px;
+    margin: 0 auto;
 }
